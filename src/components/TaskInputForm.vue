@@ -107,7 +107,7 @@ export default {
         top: 57px;
         left: 0;
 
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 400;
         color: #ff5b5b;
     }
@@ -144,7 +144,7 @@ export default {
         color: #2166ec;
 
         padding: 0px 5px;
-        transform: translate3d(-5px, -13px, 0);
+        transform: translate3d(-5px, -11px, 0);
     }
 }
 
