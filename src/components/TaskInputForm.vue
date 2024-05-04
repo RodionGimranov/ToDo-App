@@ -27,7 +27,7 @@ export default {
             taskText: "",
             error: false,
             isFocused: false,
-            placeholder: "Введите текст",
+            placeholder: "Введите текст задачи",
         };
     },
     methods: {
