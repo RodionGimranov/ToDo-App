@@ -169,6 +169,7 @@ export default {
 
     .create-task {
         background: #ff5b5b;
+        cursor: default;
     }
 }
 </style>
