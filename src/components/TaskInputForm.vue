@@ -79,7 +79,6 @@ export default {
         all: unset;
         width: 100%;
         height: 100%;
-
         padding-left: 20px;
 
         font-size: 18px;

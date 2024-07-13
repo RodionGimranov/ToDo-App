@@ -141,6 +141,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import "./styles/media-queries.scss";
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -165,7 +167,6 @@ a {
 
 body {
     min-width: 320px;
-
     background: #fff;
     padding: 20px;
     overflow-y: scroll;
@@ -184,7 +185,6 @@ body {
 
 .logo-container {
     margin-bottom: 25px;
-
     display: flex;
     justify-content: center;
 }
@@ -223,7 +223,6 @@ body {
 .active-task,
 .completed-task {
     width: 100%;
-
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -232,12 +231,9 @@ body {
 }
 
 .task-status {
+    margin-bottom: 5px;
     font-size: 20px;
     font-weight: 500;
     color: #000;
-
-    margin-bottom: 5px;
 }
-
-@import "./styles/media-queries.scss";
 </style>
